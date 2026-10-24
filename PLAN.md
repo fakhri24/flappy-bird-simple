@@ -62,11 +62,11 @@ Dokumen ini adalah rencana kerja universal dan log perkembangan proyek pembuatan
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **T-00** | Pembuatan template `AGENTS.md` & `PLAN.md` untuk Siswa | Fondasi | `DONE` | AI | Template standar single model siap |
 | **T-01** | Brainstorming Ide & Konsep Game Spesifik | Phase 0 | `DONE` | Siswa | Tema: Flappy Bird Simple. Kontrol: Space/Jump. Skor: +1 per pipa lolos. Visual: Retro Pixel. |
-| **T-02** | Pembuatan Skeleton `index.html` & Meta Zero-Cache | Phase 1 | `TODO` | AI | Menyiapkan 8 blok modular |
-| **T-03** | Modul Input Username & Leaderboard Top 10 | Phase 2 | `TODO` | AI | LocalStorage CRUD & UI tabel |
-| **T-04** | Logika Pergerakan, Rintangan & Tabrakan | Phase 3 | `TODO` | AI | Core loop & kalkulasi tabrakan |
-| **T-05** | Efek Suara Synth Web Audio API & Partikel | Phase 4 | `TODO` | AI | Audio sintetis & efek visual |
-| **T-06** | Deployment GitHub Pages via GitHub CLI (`gh`) | Phase 5 | `TODO` | AI | Publikasi live & verifikasi zero-cache |
+| **T-02** | Pembuatan Skeleton `index.html` & Meta Zero-Cache | Phase 1 | `DONE` | AI | 8 blok modular, canvas responsif, game loop RAF |
+| **T-03** | Modul Input Username & Leaderboard Top 10 | Phase 2 | `DONE` | AI | LocalStorage CRUD & UI tabel |
+| **T-04** | Logika Pergerakan, Rintangan & Tabrakan | Phase 3 | `DONE` | AI | Core loop & kalkulasi tabrakan |
+| **T-05** | Efek Suara Synth Web Audio API & Partikel | Phase 4 | `DONE` | AI | Audio sintetis & efek visual |
+| **T-06** | Deployment GitHub Pages via GitHub CLI (`gh`) | Phase 5 | `DONE` | AI | Publikasi live & verifikasi zero-cache |
 
 *Status: `TODO` | `IN-PROGRESS` | `DONE`*
 
@@ -76,6 +76,6 @@ Dokumen ini adalah rencana kerja universal dan log perkembangan proyek pembuatan
 
 | Versi | Tanggal | Pelaksana | Ringkasan Perubahan | Referensi Commit |
 | :--- | :--- | :--- | :--- | :--- |
-| **v0.3.0** | 2026-10-24 | AI | Memilih tema Flappy Bird Simple, kontrol Space, skor +1 per pipa, gaya Retro Pixel | upcoming |
+| **v0.3.0** | 2026-10-24 | AI | Implementasi lengkap Flappy Bird Simple: 8 blok modular, leaderboard Top 10, audio synth, particle effects, GitHub Pages live | `a050eac` |
 | **v0.2.0** | 2026-10-24 | AI | Konfigurasi ulang ke Single Model AI untuk siswa, modularisasi 8 blok kode, dan penyesuaian matriks tugas | `6a2b81e` |
 | **v0.1.0** | 2026-10-24 | AI | Inisialisasi awal file sistem `AGENTS.md` dan universal blueprint `PLAN.md` | `47aa88e` |
